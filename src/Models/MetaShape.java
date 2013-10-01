@@ -3,7 +3,7 @@ package Models;
 public class MetaShape {
 	private boolean[][] mask;
 	
-	public MetaShape(boolean[][] mask){
-		this.mask = mask;
+	public MetaShape(Mask container){
+		this.mask = container.getMask();
 	}
 }
