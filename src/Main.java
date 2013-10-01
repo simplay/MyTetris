@@ -1,3 +1,6 @@
+import Models.Mask;
+import Models.MaskManager;
+
 
 public class Main {
 
@@ -5,8 +8,8 @@ public class Main {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		Mask a = MaskManager.getShape(4);
+		System.out.println(a.toString());
 	}
 
 }
